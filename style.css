@@ -25,6 +25,13 @@ nav {
     margin-top: 30px;
     text-align: center;
 }
+nav img {
+    position: absolute;
+    top: 36px;
+    left: 5vw;
+    height: 30px;
+    float: left;
+}
 nav a {
     display: inline-block;
     padding: 6px 12px;
@@ -34,6 +41,9 @@ nav a {
     font-size: 20px;
     font-weight: 500;
     color: #E6E6E6;
+}
+nav a:nth-child(2) {
+    margin-left: 200px;
 }
 nav a.login, nav a.register {
     float: right;
@@ -62,13 +72,13 @@ hr.line-style {
 }
 h2, h3 {    
     width: 40vw;
-    font-size: 46px;
+    font-size: 50px;
     color: #E6E6E6;
     margin-left: 5vw;
     margin-top: 30px;
 }
 h3 {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 400;
     margin-top: 20px;
 }
@@ -79,9 +89,20 @@ a.more {
     text-align: center;
     text-decoration: none;
     margin-left: 5vw;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 10px 0;
     color: #E6E6E6;
     background-color: #4F4F4F;
     border-radius: 20px;
+}
+.more-btn {
+    font-size: 20px;
+    color: #E6E6E6;
+    margin-left: 5vw;
+    margin-top: 50px;
+}
+.more-btn p {
+    float: left;
+    margin-right: 6px;
+    cursor: pointer;
 }
