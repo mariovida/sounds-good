@@ -4,9 +4,14 @@
     scroll-behavior: smooth;
 }
 body {
+    font-family: 'Quicksand';
+    box-sizing: border-box;
+}
+.load-page {
+    width: 100%;
+    height: 100vh;
     background-color: rgb(26,26,26);
     background-image: linear-gradient(90deg, rgba(26,26,26,1) 0%, rgba(51,51,51,1) 35%, rgba(64,64,64,1) 100%);
-    font-family: 'Quicksand';
 }
 .headphones-img {
     height: 72vh;
@@ -22,7 +27,7 @@ body {
 nav {
     width: 100%;
     min-height: 30px;
-    margin-top: 30px;
+    padding-top: 30px;
     text-align: center;
 }
 nav img {
@@ -53,7 +58,7 @@ nav a.register {
     border: 1px solid #E6E6E6;
     border-radius: 20px;
 }
-h1 {
+.load-page h1 {
     width: 40vw;
     font-family: 'Pacifico';
     font-size: 62px;
@@ -63,21 +68,21 @@ h1 {
 }
 hr.line-style {
     border: 0;
-    width: 40vw;
+    width: 45vw;
     height: 2px;
     background-color: #E6E6E6;
     opacity: 0.5;
     margin-left: 5vw;
     margin-top: 30px;
 }
-h2, h3 {    
-    width: 40vw;
+.load-page h2, .load-page h3 {    
+    width: 45vw;
     font-size: 50px;
     color: #E6E6E6;
     margin-left: 5vw;
     margin-top: 30px;
 }
-h3 {
+.load-page h3 {
     font-size: 26px;
     font-weight: 400;
     margin-top: 20px;
@@ -105,4 +110,21 @@ a.more {
     float: left;
     margin-right: 6px;
     cursor: pointer;
+}
+.wrapper {
+    width: 90vw;
+    margin-left: 5vw;
+}
+.about {
+    width: 100%;
+    height: 200px;
+    background-color: #E6E6E6;
+}
+.about h1 {
+    font-family: 'Pacifico';
+    font-size: 86px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-top: 25px;
+    color: #4F4F4F;
 }
