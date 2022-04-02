@@ -1,6 +1,6 @@
 <h1 align="center">Sounds Good! - Website Template 🎧</h1>
 
-![image](/img/show1.png)
+![image](/img/show2.png)
 
 <h3 align="center">🛠️ In development</h3>
 
