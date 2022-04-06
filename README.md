@@ -14,7 +14,7 @@
 
 
 ## Showcase
-<div style="text-align:center;">![image](/img/show5.gif)</div>
+![image](/img/show5.gif)
 ![image](/img/show3.png)
 ![image](/img/show4.png)
 
