@@ -15,7 +15,7 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
-.load-page, .design {
+.load-page, .design, .accessories {
     width: 100%;
     height: 100vh;
     background-color: rgb(26,26,26);
@@ -123,14 +123,14 @@ a.more, a.more2 {
     width: 90vw;
     margin-left: 5vw;
 }
-.features {
+.features, .models {
     width: 100%;
     height: 100vh;
     background-color: #E6E6E6;
     background-color: #FFFFFF;
     background-image: linear-gradient(315deg, #FFFFFF 0%, #D7E1EC 74%);
 }
-.features h1, .design h1 {
+.features h1, .design h1, .models h1 {
     font-family: 'Pacifico';
     font-size: 86px;
     letter-spacing: 3px;
@@ -163,14 +163,51 @@ a.more2 {
     left: 59vw;
     overflow: hidden;
 }
-.design h1 {
+.design h1, .design h2 {
     color: #E6E6E6;
 }
+/*.design h2 {
+    width: 30vw;
+}*/
 hr.line-style3 {
     background-color: #E6E6E6;
 }
-.design h2 {
+.models {
+    height: 120vh;
+}
+.models h1 {
+    text-align: center;
+}
+.img-slide {
+    width: 62vw;
+    position: absolute;
+    top: 371vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.img-slide img {
+    width: 100%;
+}
+.models i {
+    position: relative;
+    top: 36%;
+    left: 5%;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 16px;
+    border-radius: 50%;
     color: #E6E6E6;
+    background-color: #4F4F4F;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.models i:nth-child(4) {
+   left: 88%;
+}
+.models i:hover {
+    opacity: 0.9;
 }
 
 /* SCROLL EFFECT */
