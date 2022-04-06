@@ -5,12 +5,15 @@
 html {
     scrollbar-width: none;
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 body {
     font-family: 'Quicksand';
     box-sizing: border-box;
+    
     min-height: 300vh;
-    overflow: auto;
+    overflow-x: hidden;
 }
 body::-webkit-scrollbar {
     display: none;

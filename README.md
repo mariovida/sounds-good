@@ -2,7 +2,7 @@
 
 ![image](/img/show2.png)
 
-<h3 align="center">🛠️ In development</h3>
+<h3 align="center">✔️ Finished</h3>
 
 
 ## Tech and tools used
